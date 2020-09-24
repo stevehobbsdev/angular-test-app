@@ -5,9 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AuthModule } from '@auth0/auth0-angular';
 import { AuthButtonComponent } from './auth-button.component';
+import { ProtectedComponent } from './protected.component';
 
 @NgModule({
-  declarations: [AppComponent, AuthButtonComponent],
+  declarations: [AppComponent, AuthButtonComponent, ProtectedComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
